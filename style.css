@@ -1,0 +1,171 @@
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+}
+
+header {
+    background-color: #610588;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+header img {
+    padding-left: 8vw;
+    margin: 8px 36px; 
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px; 
+    display: inline-block;
+    padding: 10px 28px;
+}
+
+#meio {
+    background-color: #CAADE6;
+    padding: auto auto;
+    color: #610588;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#texto {
+    padding: 0 30px; 
+    text-align: center;
+}
+
+#texto h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+#texto p {
+    font-size: 28px; 
+    text-align: justify;
+    padding: 0px 48px;
+}
+
+
+#meio img {
+    width: 100%;
+    margin: 20px 0;
+    padding: 36px 40px;
+}
+
+#meio-final {
+    background-color: #610588;
+    color: white;
+    padding: 48px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#meio-final img {
+    max-width: 200px; 
+    max-height: 200px;
+    padding: 48px 10vw;
+}
+
+#texto2 {
+    margin: 0;
+    padding: 8vh 10vw; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+#meio-final h2 {
+    font-size: 28px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#footer {
+    background-color: #AA79DC;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 950px) {
+    header {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    header img {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul li {
+        padding: 0px 20px; 
+        margin: 20px 0px;
+        font-size: 20px;
+    }
+
+    #meio {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #texto h1 {
+        font-size: 40px; 
+        margin-top: 10px;
+    }
+
+    #texto p {
+        font-size: 20px; 
+    }
+
+    #meio img {
+        width: 80%; 
+    }
+
+    #meio-final {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #meio-final img {
+        max-width: 100px;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    #texto2 {
+        padding: 5vw; 
+        margin-top: 0;
+    }
+
+    #meio-final h2 {
+        font-size: 20px;
+    }
+}
